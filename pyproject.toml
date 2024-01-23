@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "my-python-project"
+version = "0.1.0"
+description = ""
+authors = ["DQ <dq.hustlecoding@gmail.com>"]
+readme = "README.md"
+packages = [{include = "my_python_project"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+tqdm = "^4.65.0"
+numpy = "^1.25.2"
+black = "^23.7.0"
+loguru = "^0.7.0"
+notifiers = "^1.3.3"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
